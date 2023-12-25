@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #232323;
+    height: 5000px;
+}
+
+.hero-image{
+    height: 100vh;
+    background-image:linear-gradient(black,rgba(0, 0, 0, 0.058)), url("img/hero-image2.jpg");
+}
+
+.boyut{
+    width: 900px;
+}
+
+
+::placeholder{
+    color: white;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.yükseklik{
+    height: 50px;
+}
+
+.fs-0{
+    font-size: 60px;
+}
+
+.bg-siyah{
+    background-color: #2d2d2d;
+}
+
+.focus-siyah:focus{
+    background-color: #2d2d2d;
+}
+
+.focus-siyah:hover{
+    background-color: grey;
+}
+
+/* Açık durumda iken */
+.accordion-button:not(.collapsed)::after {
+    content: "+"; /* Açık durum ikonunun yolunu belirtin */
+  }
+  
+  /* Kapalı durumda iken */
+  .accordion-button.collapsed::after {
+    content: "+"; /* Kapalı durum ikonunun yolunu belirtin */
+  }
